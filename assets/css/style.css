@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    color: #5C7657;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+}
+
+header {
+    display: flex-wrap;
+    padding: 15px;
+    border-bottom: dashed #B393A2;
+    border-width: 2.5px;
+    border-spacing: 5px;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #2A4034;
+    color: white;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 225%;
+}
+
+nav {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 125%;
+    list-style-type: none;
+    display: block;
+}
+
+header a {
+    color: white;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header-img {
+    height: 200px;
+    width: 100%;
+    border-bottom: dashed #B393A2;
+    border-width: 2.5px;
+    border-spacing: 5px;
+}
+
+h2 {
+    display: block;
+    font-size: 150%;
+    margin-right: 10px;
+}
+
+.aside-left {
+    text-align: left;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-right: 10px double #B393A2;
+    padding: 20px;
+}
+
+.personal-p {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    color: #5C7657;
+}
+
+section {
+    padding: 20px;
+    display: flex;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+main h2 {
+    padding: 20px;
+}
+
+content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    color: #5C7657;
+    margin: 32px 16px 0;
+    padding: 10px;
+    border: solid #B393A2;
+    border-radius: 10px;
+}
+
+article:hover {
+    border: dashed #2A4034;
+    border-width: 2.5px;
+    z-index: 1;
+}
+
+article a {
+    color: #5C7657;
+    font-weight: bold;
+}
+
+.article-one {
+    background-image: url();
+}
+
+.contact-ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
