@@ -125,7 +125,7 @@ article a {
 }
 
 .article-one {
-    background-image: url(./assets/horiseon-cover.png);
+    width: 100%;
 }
 
 .contact-ul {
